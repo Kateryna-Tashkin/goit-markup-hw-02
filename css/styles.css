@@ -1,0 +1,107 @@
+.body {
+  color: #212121;
+  background: #e5e5e5;
+}
+
+/* цвет основного текста #212121 */
+/* цвет вторичного текста  #757575 */
+/* акцент  #2196f3 */
+/* цвет текста героя  #ffffff */
+/* цвет текста электронных контактов в футере rgba(255, 255, 255, 0.6) */
+/* бекграунд хедера #ffffff*/
+/* бекграунд героя и футера #2F303A */
+/* бекграунд боди #E5E5E5*/
+/* бекграунд команды компании #F5F4FA */
+/* бекграунд панель переключения #F5F4FA*/
+
+.page-header {
+  text-decoration-color: none;
+  background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link-logo {
+  text-decoration: none;
+  color: #212121;
+  font-weight: bold;
+  font-family: Raleway;
+}
+.link-logo:hover,
+.link-logo:focus {
+  color: #2196f3;
+}
+.logo-web {
+  color: #2196f3;
+  font-family: Oleo Script;
+}
+.logo-web:hover,
+.logo-web:focus {
+  color: #2196f3;
+}
+
+.site-nav a {
+  color: #212121;
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+.auth-nav a {
+  color: #757575;
+  text-decoration: none;
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  color: #ffffff;
+  background: #2196f3;
+}
+.section-text {
+  color: #757575;
+}
+.section-team {
+  background: #f5f4fa;
+}
+.page-footer {
+  background: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: #2196f3;
+}
+.address {
+  color: #ffffff;
+  text-decoration: none;
+}
+.address-auth {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.switch-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.box {
+  background: #ffffff;
+}
+.project-link {
+  text-decoration: none;
+  background: #ffffff;
+  color: #212121;
+}
