@@ -1,107 +1,130 @@
-.body {
-  color: #212121;
-  background: #e5e5e5;
-}
-
 /* цвет основного текста #212121 */
 /* цвет вторичного текста  #757575 */
 /* акцент  #2196f3 */
-/* цвет текста героя  #ffffff */
+/* вторичный акцент (цвет текста героя)  #ffffff */
 /* цвет текста электронных контактов в футере rgba(255, 255, 255, 0.6) */
 /* бекграунд хедера #ffffff*/
 /* бекграунд героя и футера #2F303A */
-/* бекграунд боди #E5E5E5*/
-/* бекграунд команды компании #F5F4FA */
-/* бекграунд панель переключения #F5F4FA*/
+/* бекграунд основной #E5E5E5*/
+/* бекграунд вторичный (команда компании, кнопки) #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-accent-color: #ffffff;
+  --contacts-text-footer: rgba(255, 255, 255, 0.6);
+  --bg-header: #ffffff;
+  --bg-hero-footer: #2f303a;
+  --bg-primary: #e5e5e5;
+  --bg-secondary: #f5f4fa;
+  --bg-box: #ffffff;
+}
+
+.body {
+  color: var(--primary-text-color);
+  background: var(--bg-primary);
+}
 
 .page-header {
   text-decoration-color: none;
-  background: #ffffff;
+  background: var(--bg-header);
 }
 .list {
   list-style: none;
 }
 .link-logo {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: bold;
   font-family: Raleway;
 }
 .link-logo:hover,
 .link-logo:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Oleo Script;
 }
 .logo-web:hover,
 .logo-web:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav a {
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration: none;
+}
+.site-nav .current {
+  color: var(--accent-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .auth-nav a {
-  color: #757575;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 .auth-nav a:hover,
 .auth-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--bg-hero-footer);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--secondary-accent-color);
 }
 .hero-button {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--secondary-accent-color);
+  background: var(--accent-color);
 }
 .section-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .section-team {
-  background: #f5f4fa;
+  background: var(--bg-secondary);
 }
 .page-footer {
-  background: #2f303a;
+  background: var(--bg-hero-footer);
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--secondary-accent-color);
   text-decoration: none;
 }
 .logo-footer:hover,
 .logo-footer:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .address {
-  color: #ffffff;
+  color: var(--secondary-accent-color);
   text-decoration: none;
 }
 .address-auth {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-text-footer);
   text-decoration: none;
 }
 .switch-button {
-  background: #f5f4fa;
+  background: var(--bg-secondary);
   border-radius: 4px;
 }
+.switch-button-current {
+  color: var(--secondary-accent-color);
+  background: var(--accent-color);
+}
+.switch-button:hover,
+.switch-button:focus {
+  background: var(--accent-color);
+}
 .box {
-  background: #ffffff;
+  background: var(--bg-box);
 }
 .project-link {
   text-decoration: none;
-  background: #ffffff;
-  color: #212121;
+  background: var(--bg-box);
+  color: var(--primary-text-color);
 }
