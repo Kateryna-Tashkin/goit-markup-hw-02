@@ -24,8 +24,11 @@
 .body {
   color: var(--primary-text-color);
   background: var(--bg-primary);
-}
 
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
 .page-header {
   text-decoration-color: none;
   background: var(--bg-header);
@@ -34,10 +37,12 @@
   list-style: none;
 }
 .link-logo {
-  text-decoration: none;
   color: var(--primary-text-color);
-  font-weight: bold;
-  font-family: Raleway;
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .link-logo:hover,
 .link-logo:focus {
@@ -45,7 +50,10 @@
 }
 .logo-web {
   color: var(--accent-color);
-  font-family: Oleo Script;
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-web:hover,
 .logo-web:focus {
@@ -55,6 +63,11 @@
 .site-nav a {
   color: var(--primary-text-color);
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .current {
   color: var(--accent-color);
@@ -67,6 +80,11 @@
 .auth-nav a {
   color: var(--secondary-text-color);
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-nav a:hover,
 .auth-nav a:focus {
@@ -78,16 +96,56 @@
 }
 .hero-title {
   color: var(--secondary-accent-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.section-title {
+  font-size: 14px;
+  line-height: 1.14;
 }
 .section-text {
   color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-main-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .section-team {
   background: var(--bg-secondary);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section-text-profession {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .page-footer {
   background: var(--bg-hero-footer);
@@ -95,6 +153,10 @@
 .logo-footer {
   color: var(--secondary-accent-color);
   text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-footer:hover,
 .logo-footer:focus {
@@ -103,18 +165,41 @@
 .address {
   color: var(--secondary-accent-color);
   text-decoration: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .address-auth {
   color: var(--contacts-text-footer);
   text-decoration: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .switch-button {
   background: var(--bg-secondary);
   border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 .switch-button-current {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 .switch-button:hover,
 .switch-button:focus {
@@ -123,8 +208,20 @@
 .box {
   background: var(--bg-box);
 }
-.project-link {
-  text-decoration: none;
-  background: var(--bg-box);
+.portfolio-link {
   color: var(--primary-text-color);
+  background: var(--bg-box);
+  text-decoration: none;
+}
+.portfolio-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-text-type {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.89;
 }
