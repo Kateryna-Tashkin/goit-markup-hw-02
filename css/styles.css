@@ -190,17 +190,6 @@
   line-height: 1.63;
   text-align: center;
 }
-.switch-button-current {
-  color: var(--secondary-accent-color);
-  background: var(--accent-color);
-  border-radius: 4px;
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-}
 .switch-button:hover,
 .switch-button:focus {
   background: var(--accent-color);
